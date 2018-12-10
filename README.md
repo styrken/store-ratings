@@ -13,12 +13,14 @@ And then execute:
     
 ## iOS Rating
 
+    require 'store-rating'
     rating = StoreRating::rating("284882215", "dk")
     puts "Rating is: #{rating.to_s}"
     
         
 ## Android Rating
 
+    require 'store-rating'
     rating = StoreRating::rating("com.facebook.katana")
     puts "Rating is: #{rating.to_s}"
     
